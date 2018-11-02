@@ -1,0 +1,715 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?djienn');
+  src:  url('fonts/icomoon.eot?djienn#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?djienn') format('truetype'),
+    url('fonts/icomoon.woff?djienn') format('woff'),
+    url('fonts/icomoon.svg?djienn#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-correo1:before {
+  content: "\e945";
+}
+.icon-instagram2:before {
+  content: "\ea92";
+}
+.icon-twitter3:before {
+  content: "\ea96";
+}
+
+body{
+	width: auto;
+	max-width: 100%;
+	font-size: 25px;
+}
+
+body html{
+	max-height: 100%;
+}
+
+
+/*BARRA DE NAVEGACION*/
+
+.container-menu{
+	display: flex;
+	justify-content: space-evenly;
+}
+    
+.navbar, .dropdown-menu{
+	background: #153b44;
+}
+
+.navbar a{
+	color: white;
+	font-size: 1.1rem;
+}
+
+.navbar-brand img{
+	width: 5rem;
+}
+
+.navbar li{
+	padding: .7rem;
+}
+
+.navbar li:hover{
+	box-shadow: 3px 2px 75px 0px rgba(0,0,0, 0.75);
+}
+
+.navbar-style{
+	justify-content: flex-end;
+}
+
+.dropdown-menu{
+	min-width: unset; 
+}
+
+.dropdown-menu a:hover{
+	background: #153b44;
+}
+
+.dropdown-menu1, .dropdown-menu2, .dropdown-menu3, .dropdown-menu4{
+    top: auto;
+}
+
+.dropdown-menu1{
+    left: 1rem;
+}
+
+.dropdown-menu2{
+    left: 14rem;
+}
+
+.dropdown-menu3{
+    left: 33rem;
+}
+
+.dropdown-menu4{
+    left: 60rem;
+    opacity: .9;
+}
+
+/*CONTENEDORES GENERALES*/
+
+.container-index{
+	background: #153b44;
+}
+
+.col-xl-10, .col-xl-2, .col-xl-12{
+	/*border: 1px solid black;*/
+	display: flex;
+	flex-wrap: wrap;
+	/*padding-right: 0;
+	padding-left: 0;*/
+}
+
+.col-xl-2, .col-xl-12{
+	border: none;
+	background: #153b44;
+}
+
+.col-xl-10, .col-xl-12{
+	/*border: 1px solid black;*/
+	flex-wrap: wrap;
+}
+
+.col-xl-10{
+	background: white;
+}
+
+/*SUB-MENU*/
+
+.container-sub-menu{
+	/*position: fixed;*/
+	/*margin-top: 5rem;*/
+	/*z-index: 1;*/
+	background: #153b44;
+}
+
+.name-page{
+	color: white;
+	font-family: 'Anton', sans-serif;
+	letter-spacing: 4px;
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.container-sub-menu a{
+	color: white;
+	text-decoration: none;
+	padding-left: 2rem;
+}
+
+.container-sub-menu a:hover{
+	transition: .3s;
+	color: black;
+}
+
+/*FOTO PRINCIPAL*/
+
+.container-index{
+	padding-top: 9rem;
+}
+
+.container-pag, .container-footer{
+	background-image: url("Imginst/fibraoptica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.media{
+	width: 60%;
+}
+
+.imagen-gif{
+	max-width: 100%;
+	height: auto;
+	margin: 5rem 3rem;
+	opacity: .9;
+	width: 75%;
+}
+
+.container-text{
+	width: 40%;
+	margin-top: 10%;
+	color: white;
+}
+
+.container-banner-1, .container-banner-2{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*BANNER-1*/
+
+.container-banner-1{
+	margin-top: .2rem;
+}
+
+/*ASIDE*/
+
+.col-xl-2{
+	background: 
+}
+
+.container-aside{
+
+}
+
+/*INFORMACION*/
+
+.container-text-down{
+	background: white;
+	margin: 6%;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.container-text-down p{
+	color: black;
+	font-size: 1.6rem;
+}
+
+.container-text-down a{
+	font-size: 1.1rem;
+	color: purple;
+}
+
+.container-video{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+	/*padding: 56.25px;*/
+}
+
+/*BANNER-2*/
+
+.container-banner-2{
+	margin-bottom: .2rem;
+}
+
+/*FOOTER*/
+
+.contactanos{
+	display: flex;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 1rem;
+}
+
+.contactanos h2{
+	width: 12rem;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+}
+
+.container-footer-mensaje{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+
+.container-footer-mensaje textarea, .container-footer-mensaje input{
+	background: rgba(0, 0, 0, 0.3);
+	border: none;
+	color: white;
+}
+
+.container-footer-mensaje textarea{
+	width: 50%;
+	font-size: 1.1rem;
+	margin: 1rem;
+}
+
+.container-footer-mensaje input{
+	width: 18rem;
+	margin-left: 6%;
+	cursor: pointer;
+}
+
+.social-net{
+	margin-top: 6rem;
+}
+
+.social-net a{
+	text-decoration: none;
+	padding: 2rem;
+	font-size: 2rem;
+}
+
+.social-net a:hover{
+	transition: .3s;
+	color: black;
+}
+
+.social-net span, .social-net a{
+	color: white;
+}
+
+
+.social-net p{
+	margin-top: 1rem;
+}
+
+/*MENUS GENERAL*/
+
+.body-menu{
+	background: rgba(4,20,21,1);
+}
+
+.container-menu{
+	background: #153b44;
+}
+
+.container-sub-header{
+	background-image: url("Imginst/fibraoptica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.tittle-menu{
+	margin-top: 10rem;
+}
+
+.tittle-menu h1{
+	color: white;
+	font-size: 3.5rem;
+	font-weight: bold;
+}
+
+.logo-menu{
+	margin-top: 6rem;
+}
+
+.logo-menu img{
+	border-radius: 5px 5px 5px 5px;
+}
+
+.container-menu-info, .container-banner{
+	background: linear-gradient(to right, rgba(37,202,217,1) 0%, rgba(37,202,217,0.37) 77%, rgba(42,202,223,0.18) 100%);
+}
+
+.container-menu-info{
+	margin-top: 1rem;
+	border-radius: 50px 50px 50px 50px;
+	padding: 2rem 3rem;
+}
+
+.container-menu-info h2, .container-menu-info h3, .container-menu-info p{
+	color: white;
+}
+
+.container-menu-info h2,{
+	font-size: 1.8rem;
+	font-weight: bold;
+}
+
+.container-menu-info h3{
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+
+.container-menu-info p{
+	text-align: justify;
+	line-height: 1.5;
+	font-size: 1.4rem;
+}
+
+.img-menu{
+	width: 50%;
+}
+
+.container-banner-menu{
+	background: rgba(4,20,21,1);
+	padding: .5rem;
+}
+/*ANDROID*/
+
+.header-android{
+	padding-top: 6rem;
+}
+
+.android-logo{
+	padding: 1rem;
+}
+
+/*WINDOWS, MAC Y LINUX*/
+
+.windows-logo, .mac-logo, .linux-logo{
+	margin-bottom: 1rem;
+}
+
+.windows-logo img, .mac-logo img{
+	width: 60%;
+}
+
+.container-menu-windows{
+	padding-top: 6rem;
+}
+
+/*MAC*/
+
+.mac-logo{
+	margin-left: 8.5rem;
+}
+
+.container-menu-mac{
+	padding-top: 6rem;
+}
+
+/*LINUX*/
+
+.linux-logo img{
+	width: 80%;
+}
+
+.linux-logo{
+	margin-right: 3rem;
+}
+
+.container-menu-linux{
+	padding-top: 6rem;
+}
+
+/*iOS*/
+
+.ios1{
+	width: 50%;
+	margin-left: 8rem;
+}
+
+.container-menu-ios{
+	padding-top: 6rem;
+}
+
+/*BLOG, PROXIMAMENTE*/
+
+.body-blog{
+	background-image: url("Imginst/fibraoptica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover
+}
+
+.container-tittle-blog, .container-tittle-herramientas, .container-tittle-proximamente{
+	background: unset;
+	margin-top: 3rem;
+}
+
+.container-blog{
+	padding-top: 6rem;
+}
+
+.container-gif-blog, .container-gif-herramientas{
+	background: unset;
+}
+
+.container-gif-herramientas img{
+	width: 80%;
+}
+
+.container-gif-blog{
+	height: -webkit-fill-available;
+}
+
+/*POLITICA DE PRIVACIDAD, MISION Y VISION, INSTRUCCIONES, PROMOCIONES, SERVICIOS, SABER MAS*/
+
+.header-politica, .header-mision, .header-instrucciones, .header-promociones, .header-servicios-purevpn, .header-servicios, .header-saber-mas, .header-apps{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.tittle-politica, .tittle-mision, .tittle-instrucciones, .tittle-promociones, .tittle-servicios-purevpn, .tittle-servicios, .tittle-saber-mas, .tittle-apps{
+	margin-top: 12rem;
+}
+
+.container-menu-politica{
+	padding-top: 6rem;
+}
+
+/*INSTRUCCIONES Y APPS PUREVPN Y TORGUARD*/
+
+.header-instrucciones{
+	padding-top: 6rem;
+}
+
+.img-purevpn{
+	margin-top: 3rem;
+}
+
+.container-instrucciones-torguard img, .img-purevpn img, .info-instrucciones-torguard img, .container-apps-torguard img, .info-apps-torguard img{
+	border-radius: .5rem .5rem .5rem .5rem;
+}
+
+.container-instrucciones-list a, .container-apps-list a{
+	text-decoration: none;
+}
+
+.container-instrucciones-list, .container-apps-list{
+	margin-top: 1rem;
+}
+
+.container-instrucciones-list li, .container-apps-list li, .container-apps-list-purevpn li{
+	background: linear-gradient(to right, rgba(37,202,217,1) 0%, rgba(37,202,217,0.37) 77%, rgba(42,202,223,0.18) 100%) !important;
+	color: white;
+}
+
+.container-instrucciones-list li:hover{
+	transition: .2s;
+	color: black;
+}
+
+.container-apps-list li:hover{
+	transition: .2s;
+	color: black;
+}
+
+.container-apps-list-purevpn li:hover{
+	transition: .2s;
+	color: black;
+}
+
+.container-instrucciones-torguard, .container-apps-torguard{
+	margin-top: 2rem;
+}
+
+.info-instrucciones-torguard img, .info-apps-torguard img{
+	width: 50%;
+}
+
+
+
+/*PROMOCIONES, SERVICIOS Y SABER MAS*/
+
+.info-promociones a, .info-servicios-purevpn a, .info-saber-mas a{
+	text-decoration: none;
+	color: wheat;
+}
+
+.info-promociones a:hover{
+	transition: .3s;
+	color: black;
+}
+
+/*SERVICIOS, SERVICIOS PUREVPN, SERVICIOS TORGUARD*/
+
+.info-servicios-purevpn a:hover{
+	transition: .3s;
+	color: black;
+}
+
+.container-servicios-purevpn img, .container-servicios-torguard img{
+	width: 60%;
+	border-radius: 1rem;
+}
+
+.container-servicios-purevpn{
+	margin-bottom: 1rem;
+}
+
+.container-servicios-purevpn, .container-servicios-torguard{
+	background: unset;
+}
+
+/*PROXIMAMENTE*/
+
+.container-tittle-proximamente{
+	margin-top: 5rem;
+	height: -webkit-fill-available;
+}
+
+/*SABER MAS*/
+
+.info-saber-mas a:hover{
+	transition: .3s;
+	color: black;
+}
+
+/*GRACIAS*/
+
+.container-tittle-gracias{
+	background: unset;
+	height: -webkit-fill-available;
+}
+
+
+.container-tittle-gracias h2{
+	color: white;
+}
+
+/*FORMULARIO*/
+
+.container-tittle-formulario{
+	background: unset;
+	margin-top: 5rem;
+}
+
+.container-tittle-formulario p{
+	color: white;
+}
+
+.container-form{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background: unset;
+}
+
+.container-form input{
+	display: flex;
+}
+
+.container-form textarea, .container-form input{
+	background: rgba(0, 0, 0, 0.3);
+	border: none;
+	color: white;
+}
+
+.container-form textarea{
+	font-size: 1.5rem;
+	width: 30rem;
+}
+
+.container-button input{
+	padding-left: 4rem;
+	padding-right: 4rem;
+	cursor: pointer;
+}
+
+.info-formulario{
+	background: unset;
+}
+
+.info-formulario p{
+	color: white;
+}
+
+.info-formulario a{
+	text-decoration: none;
+}
+
+.info-formulario a:hover{
+	transition: .3s;
+	color: wheat;
+}
+
+/*MEDIA QUERIES*/
+ 
+ @media all and (min-width: 360px) and (max-width: 800px){
+ 	*{
+ 		font-size: 1rem;
+ 	}
+
+ 	.col-xl-2{
+ 	display: none;
+ }
+
+ .container-text-down p{
+ 	font-size: 1rem;
+ }
+
+ .name-page{
+ 	text-align: center;
+ }
+
+ .container-menu-info p{
+ 	font-size: 1rem;
+ }
+
+ .tittle-menu h1{
+ 	font-size: 2.3rem;
+ }
+
+  .container-menu-info{
+ 	width: 85%;
+ }
+
+ form{
+ 	text-align: center;
+ }
+
+ .container-footer-mensaje textarea{
+ 	width: 82%;
+ }
+ .container-footer-mensaje input{
+ 	margin-left: 0;
+ }
+
+.social-net{
+	margin-top: .5rem;
+}	
+
+.container-blog{
+	padding-top: 11rem;
+}
+
+ }
+
+
+ 
+
+
+
+
+
+
