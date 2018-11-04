@@ -722,6 +722,14 @@ body html{
 
 .social-net{
 	margin-top: .5rem;
+}
+
+.social-red{
+	margin: 2rem;
+}
+
+.social-net a{
+	padding: 0;
 }	
 
 .container-blog{
