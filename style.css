@@ -716,8 +716,17 @@ body html{
  .container-footer-mensaje textarea{
  	width: 82%;
  }
+
  .container-footer-mensaje input{
  	margin-left: 0;
+ }
+
+ .container-blog{
+ 	padding-top: 9rem;
+ }
+
+ .container-form textarea{
+ 	width: 21rem;
  }
 
 .social-net{
