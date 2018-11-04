@@ -655,7 +655,7 @@ body html{
 
 /*MEDIA QUERIES*/
  
- @media all and (min-width: 360px) and (max-width: 800px){
+ @media all and (min-width: 220px) and (max-width: 400px){
  	*{
  		font-size: 1rem;
  	}
@@ -704,6 +704,58 @@ body html{
 }
 
  }
+
+/* @media (max-width: 576px){
+
+ 	*{
+ 		font-size: 1rem;
+ 	}
+
+ 	.col-xl-2{
+ 	display: none;
+ }
+
+ .container-text-down p{
+ 	font-size: 1rem;
+ }
+
+ .name-page{
+ 	text-align: center;
+ }
+
+ .container-menu-info p{
+ 	font-size: 1rem;
+ }
+
+ .tittle-menu h1{
+ 	font-size: 2.3rem;
+ }
+
+  .container-menu-info{
+ 	width: 85%;
+ }
+
+ form{
+ 	text-align: center;
+ }
+
+ .container-footer-mensaje textarea{
+ 	width: 82%;
+ }
+ .container-footer-mensaje input{
+ 	margin-left: 0;
+ }
+
+.social-net{
+	margin-top: .5rem;
+}	
+
+.container-blog{
+	padding-top: 11rem;
+}
+
+
+ }*/
 
 
  
