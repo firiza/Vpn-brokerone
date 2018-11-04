@@ -669,6 +669,12 @@ body html{
  		margin-bottom: 0rem;
  	}
 
+ 	.scroll-menu{
+ 		height: auto;
+ 		max-height: 20rem;
+ 		overflow-x: hidden;
+ 	}
+
  	.name-page{
  		font-size: 1.4rem;
  	}
