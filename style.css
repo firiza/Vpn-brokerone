@@ -660,8 +660,17 @@ body html{
  		font-size: 1rem;
  	}
 
+ 	.navbar-brand img{
+ 		width: 3.4rem;
+ 	}
+
  	.button-menu{
  		margin-left: 10rem;
+ 		margin-bottom: 0rem;
+ 	}
+
+ 	.name-page{
+ 		font-size: 1.4rem;
  	}
 
  	.media{
