@@ -660,6 +660,22 @@ body html{
  		font-size: 1rem;
  	}
 
+ 	.button-menu{
+ 		margin-left: 10rem;
+ 	}
+
+ 	.media{
+ 		width: 100%;
+ 	}
+
+ 	.imagen-gif{
+		margin: 6rem 3rem 0rem 3rem;
+ 	}
+
+ 	.container-text{
+ 		width: 100%;
+ 	}
+
  	.col-xl-2{
  	display: none;
  }
