@@ -493,8 +493,12 @@ body html{
 	padding-top: 6rem;
 }
 
-.img-purevpn{
+.img-purevpn, .img-torguard{
 	margin-top: 3rem;
+}
+
+.img-torguard img{
+	width: 70%;
 }
 
 .container-instrucciones-torguard img, .img-purevpn img, .info-instrucciones-torguard img, .container-apps-torguard img, .info-apps-torguard img{
@@ -527,6 +531,15 @@ body html{
 .container-apps-list-purevpn li:hover{
 	transition: .2s;
 	color: black;
+}
+
+.container-apps-list-torguard li:hover{
+	transition: .2s;
+	color: black;
+}
+
+.container-apps-list-torguard a{
+	font-size: 1.6rem;
 }
 
 .container-instrucciones-torguard, .container-apps-torguard{
