@@ -95,45 +95,79 @@
   </div>
 
   <section>
-    <div class="container-fluid container-menu">
+    <div class="container-fluid container-menu container-menu-linux">
       <div class="row">
-        
-        <div class="col-xl-12 container-sub-header header-instrucciones header-instrucciones-purevpn ">
-          <div class="tittle-menu tittle-instrucciones tittle-instrucciones-purevpn">
-            <h1>INSTRUCCIONES TORGUARD</h1>
+         
+        <div class="col-xl-12 container-sub-header header-linux">
+          <div class="tittle-menu">
+            <h1>LINUX (DEBIAN/UBUNTU)</h1>
+          </div>
+          <div class="logo-menu linux-logo">
+            <img class="img-fluid" src="Imginst/logo-linux.jpg">
           </div>
         </div>
 
-        <div class="col-xl-6 mx-auto text-center container-menu-info info-instrucciones">\
-           <div class="col-xl-12 info-text-torguard">
-            <p>
-              TorGuard tiene una pagina de descargas dedicada, que agrupa todo el software ofrecido (a diferencia de otros servicios como PureVPN que tiene una pagina para cada aplicación).
-            </p>
-              <p>
-              Puedes visitar la pagina <a href="https://torguard.net/downloads.php">aquí</a>.
-            </p>
-            <p>
-              Las cuatro plataformas que cubriremos en esta ocasión serán iOS, Android, Windows, y Linux. A medida que recibamos feedback de los usuarios para incluir otras instrucciones lo iremos realizando. Todas estas instrucciones las encuentras agrupadas en inglés acá.
-            </p>
-           </div>
-          <div class="row">
+        <div class="col-xl-6 mx-auto text-center container-menu-info info-linux-torguard">
+          <h2>PASO A PASO</h2>
 
-            <div class="col-xl-6 instrucciones-img-torguard">
-                <img class="img-fluid" src="Imginst/torguard-instrucciones.jpg">
-            </div>
+          <h3>Paso 1</h3>
 
-            <div class="col-xl-4 container-instrucciones-list container-instrucciones-list-torguard">
-              <ul class="list-group">
-                <a href="android-menu-torguard.html"><li class="list-group-item">Android</li></a>
-                <a href="linux-menu-torguard.html"><li class="list-group-item">Linux</li></a>
-                <a href="ios-menu-torguard.html"><li class="list-group-item">iOS</li></a>
-                <a href="mac-menu-torguard.html"><li class="list-group-item">MAC</li></a>
-                <a href="windows-menu-torguard.html"><li class="list-group-item">Windows</li></a>
-              </ul>
-            </div>  
-          </div>       
+            <p>Descarga el ultimo built en sus versiones de x64Bit o 32Bit para tu OS, esto puede llevarte a abrirlos con “Software Install (default)” y da click en OK.</p>
+
+            <p>Alternativamente, puedes abrir un terminal y usar los siguientes comandos para descargas los paquetes que necesites</p>
+
+            <p class="tercer-parrafo">32bit wget https://updates.torguard.biz/Software/Linux/torguard-latest-i386.deb</p>
+
+            <p>64bit wget https://torguard.net/downloads/torguard-latest-amd64.deb</p>
+
+          <h3>Paso 2</h3>  
+
+            <p>El Instalador de Software de Ubuntu debería aparecer, dale click a “Instalar”, el mismo te dirigirá a autenticarte, ingresa tu password de tu OS.</p>
+
+            <p>Alternativamente, puedes usar la línea de comandos y tipear:</p>
+
+            <p>Para instalar la versión de 32Bit: sudo dpkg -i torguard-latest-i386.deb</p>
+
+            <p>Para instalar la versión de 64Bit: sudo dpkg -i torguard-latest-amd64.deb</p>
+
+          <h3>Paso 3</h3>
+
+            <p>Haz Click en el ícono “Home” en la esquina superior izquierda y busca TorGuard. Haz Click en la opción TorGuard VPN Client. Esto lanzará al Cliente VPN de TorGuard. Probablemente necesitaras colocar nuevamente tu clave de acceso al OS. </p> 
+
+          <h3>Paso 4</h3>  
+
+            <p>Una vez instalado, veras Tunnel Type, Protocol, Port / Auth y Cipher están seteados para darte un buen balance entre seguridad y rendimiento.</p>
+          
+            <p>Tú puedes cambia estos valores como lo necesites, pero ten en mente que el rendimiento puede verse afectado si seleccionas altos niveles de encriptado, tu quizás quieras cambiar UDP a TCP ya que UDP es filtrado frecuentemente en algunas redes, esto causa normalmente un estatus de “espera”.</p>
+
+          <h3>Paso 5</h3>  
+
+            <p>Ahora da click en “Select Server…” y selecciona tu ubicación deseada.</p>
+
+            <p>Para velocidad, trata de seleccionar la ubicación más cercana a ti, si la ubicación más cercana no es una opción (por ejemplo, porque precisamente deseas ubicarte geográficamente en otro sitio) intenta modificar parámetros del paso 2, para ver si se hace alguna diferencia.</p>
+
+          <h3>Paso 6</h3>
+          
+            <p>Da Click en “Connect” – esto te dirigirá a que introduzcas tu username del servicio VPN y el Password y asegúrate de chequear y habilitar la opción “Remember Credentials” así no necesitaras estar introduciendo tus credenciales cada vez.</p>
+
+            <p>Si no has cambiado tus credenciales, las mismas serán tu usuario y contraseña que usas para el login en el website (y que configuraste al momento de hacer la compra) – Si las cambiaste a través de la página de manejo de credenciales en tu perfil, entonces serán el usuario y contraseña que tú mismo has determinado.</p>
+
+          <h3>Paso 7</h3>  
+
+            <p>Ahora debería intentarse conectar a la red VPN – Una vez que veas el estatus “Connected” se debería leer directamente abajo “Verified” que significa que estas 100% conectado y asegurado.</p>
+
+          <h3>Paso 8</h3>
+
+
+          <p>Para desconectarse solo da Click en el botón “Disconnect” en la parte inferior de la ventana “Connected”</p>
+
         </div>
 
+        <div class="col-xl-12 container-banner-menu banner-linux">
+          <div class="mx-auto text-center">
+            <a href="https://www.purevpn.com?aff=36888&amp;a_bid=11cd9bca" target="_top"><img class="img-fluid" src="Imginst/banner3.jpg"></a>
+          </div>
+        </div>
       </div>
     </div>    
   </section>

@@ -550,6 +550,44 @@ body html{
 	width: 50%;
 }
 
+.info-text-torguard{
+	background: unset;
+}
+
+.info-text-torguard p{
+	color: white;
+	font-size: 1.3rem;
+}
+
+.info-text-torguard a, .info-windows-torguard a, .info-mac-torguard a, .info-android-torguard a, .info-ios-torguard a{
+	text-decoration: none;
+	color: white;
+}
+
+.info-text-torguard a:hover, .info-windows-torguard a:hover, .info-mac-torguard a:hover, .info-android-torguard a:hover, .info-ios-torguard a:hover{
+	color: #153b44;
+}
+
+.container-instrucciones-list-torguard{
+	margin-left: .5rem;
+}
+
+.instrucciones-img-torguard{
+	margin-top: 3rem;
+}
+
+.instrucciones-img-torguard img{
+	width: 85%;
+	border-radius: .5rem .5rem .5rem .5rem;
+}
+
+/*EXCLUSIVAMENTE EN MAC*/
+
+.tercer-parrafo{
+	text-align: left;
+}
+
+
 
 
 /*PROMOCIONES, SERVICIOS Y SABER MAS*/
