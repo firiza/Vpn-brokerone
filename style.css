@@ -210,8 +210,15 @@ body html{
 }
 
 .container-aside{
-
+	height: 35rem;
 }
+
+/*ASIDE INSTAGRAM*/
+
+.insta-style-thumb{
+	margin: 0 0 .8rem 0;
+}
+
 
 /*INFORMACION*/
 
@@ -721,7 +728,7 @@ body html{
  	}
 
  	.button-menu{
- 		margin-left: 10rem;
+ 		margin-left: 7rem;
  		margin-bottom: 0rem;
  	}
 
