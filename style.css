@@ -592,7 +592,7 @@ body html{
 
 /*PROMOCIONES, SERVICIOS Y SABER MAS*/
 
-.info-promociones a, .info-servicios-purevpn a, .info-saber-mas a{
+.info-promociones a, .info-servicios-purevpn a, .info-servicios-torguard a, .info-saber-mas a{
 	text-decoration: none;
 	color: wheat;
 }
@@ -602,9 +602,14 @@ body html{
 	color: black;
 }
 
+.info-servicios-torguard ul li{
+	text-align: justify;
+	color: white;
+}
+
 /*SERVICIOS, SERVICIOS PUREVPN, SERVICIOS TORGUARD*/
 
-.info-servicios-purevpn a:hover{
+.info-servicios-purevpn a:hover, .info-servicios-torguard a:hover{
 	transition: .3s;
 	color: black;
 }
