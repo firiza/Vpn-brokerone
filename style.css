@@ -758,6 +758,10 @@ body html{
  	display: none;
  }
 
+ .container-text p{
+ 	margin-left: 1.8rem;
+ }
+
  .container-text-down p{
  	font-size: 1rem;
  }
@@ -769,6 +773,15 @@ body html{
  .container-menu-info p{
  	font-size: 1rem;
  }
+
+ .ios1{
+ 	margin-left: 5rem;
+ }
+
+ .info-text-torguard a, .info-windows-torguard a, .info-mac-torguard a, .info-android-torguard a, .info-ios-torguard a{
+	text-decoration: none;
+	color: #153b44;
+}
 
  .tittle-menu h1{
  	font-size: 2.3rem;
