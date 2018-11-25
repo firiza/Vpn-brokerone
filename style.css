@@ -634,6 +634,32 @@ body html{
 	background: unset;
 }
 
+.container_asia, .container_africa, .container_north, .container_south, .container_oceania, .container_europe, .container_middle{
+	display: none;
+}
+
+.active{
+	display: block;
+	margin-top: 1rem;
+}
+
+.container-buttons{
+	background: linear-gradient(to right, rgba(37,202,217,1) 0%, rgba(37,202,217,0.37) 77%, rgba(42,202,223,0.18) 100%);
+}
+
+.btn-asia-style{
+	font-weight: bold;
+	padding: 0.5rem 2rem !important;
+	font-size: 1.3rem;
+	margin: .8rem;
+}
+
+.btn-asia-style:hover{
+	box-shadow: 3px 3px 19px 9px rgba(240,235,240,0.84);
+}
+
+
+
 /*PROXIMAMENTE*/
 
 .container-tittle-proximamente{
@@ -825,6 +851,10 @@ body html{
 
 .container-blog{
 	padding-top: 11rem;
+}
+
+.btn-asia-style{
+	font-size: unset;
 }
 
  }
